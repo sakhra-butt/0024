@@ -22,7 +22,11 @@ void lockDoor() {
         isLocked = true;
         cout << "Door is now locked." << endl;
     }
-void unlock();
+ void unlockDoor() {
+        isLocked = false;
+        cout << "Door is now unlocked." << endl;
+    }
+
 bool isDoorOpen()const;
 bool isDoorLocked() const;
 
