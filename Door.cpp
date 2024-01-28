@@ -10,7 +10,10 @@ private:
 
 public:
 Door()// Initializes the door as closed and unlocked
-void openDoor();
+ void openDoor() {
+        isopen = true;
+        cout << "Door is now open." << endl;
+    }
  void closeDoor();
 void lockDoor();
 void unlock();
