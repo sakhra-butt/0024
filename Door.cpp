@@ -18,7 +18,9 @@ Door()// Initializes the door as closed and unlocked
 void lockDoor();
 void unlock();
 bool isDoorOpen()const;
-bool isDoorLocked() const;
+bool isDoorLocked() const {
+        return isLocked;
+    }
 
 int main(){
 return 0;
