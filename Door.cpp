@@ -16,7 +16,11 @@ Door()// Initializes the door as closed and unlocked
     }
  void closeDoor();
 void lockDoor();
-void unlock();
+ void unlockDoor() {
+        isLocked = false;
+        cout << "Door is now unlocked." << endl;
+    }
+
 bool isDoorOpen()const;
 bool isDoorLocked() const;
 
